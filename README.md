@@ -1,7 +1,7 @@
-# bootstrap-boilerplate
+# parallax-practice
 
 ## Description
-A basic HTML 5 Bootstrap template, including the required CSS and JS for BootStrap to run.
+Homework for Day 7 of Mobile-Friendly Websites.
 
 ## Prerequisites
 - Understanding of [Bootstrap](https://getbootstrap.com)
