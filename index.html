@@ -28,6 +28,12 @@
       rel="stylesheet"
     />
 
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/00ca827a70.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Local Stylesheet -->
     <link href="./css/style.css" rel="stylesheet" />
 
@@ -35,20 +41,113 @@
     <title>parallax-practice</title>
   </head>
 
+  <!-------------------------------- Body -------------------------------->
+
   <body>
+    <!-- Parallax #1 -->
 
-    <!-- Jumbotron -->
+    <div class="row text-center" id="parallax1">
+      <!-- Navigation Bar (Top of Parallax #1) -->
 
-    <div class="row text-center" id="jumbo1">
-      <div class="col m-5 p-5">
-        <h1 class="my-5 p-5 text-one">Road Trip</h1>
-        <p class="my-5 p-5 text-two">
+      <nav class="navbar navbar-expand-xxlg navbar-dark bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand brand" href="#">Road Trip</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-auto mb-1 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-two-white" href="#parallax2"
+                  >Leave Town</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-two-white" href="#parallax3">
+                  See the Country
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-two-white" href="#parallax4">
+                  Enjoy the Mountains
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Parallax #1 -->
+
+      <div class="col m-2 p-2">
+        <h1 class="mx-2 my-5 p-3 text-one-white">Road Trip</h1>
+        <p class="mx-2 my-5 p-3 text-two-white">
           Is it time to get away from the city?
         </p>
+        <a href="#parallax2">
+          <i class="fas fa-arrow-circle-down fa-2x text-white"></i>
+        </a>
       </div>
     </div>
 
+    <!-- Parallax #2 -->
 
+    <div class="row text-center" id="parallax2">
+      <div class="col m-2 p-2">
+        <h1 class="mx-2 my-5 p-3 text-one-white">Leave Town</h1>
+        <p class="mx-2 my-5 p-3 text-two-white">Are you feeling better now?</p>
+        <a href="#parallax3">
+          <i class="fas fa-arrow-circle-down fa-2x text-white"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Parallax #3 -->
+
+    <div class="row text-center" id="parallax3">
+      <div class="col m-2 p-2">
+        <h1 class="mx-2 my-5 p-3 text-one-white">See the Country</h1>
+        <p class="mx-2 my-5 p-3 text-two-white">
+          Isn't it beautiful to get away from it all?
+        </p>
+        <a href="#parallax4">
+          <i class="fas fa-arrow-circle-down fa-2x text-white"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Parallax #4 -->
+
+    <div class="row text-center" id="parallax4">
+      <div class="col m-2 p-2">
+        <h1 class="mx-2 my-5 p-3 text-one-white">Enjoy the Mountains</h1>
+        <p class="mx-2 my-5 p-3 text-two-white">Have we gone a bit too far?</p>
+        <a href="#parallax1">
+          <i class="fas fa-arrow-circle-down fa-2x text-white"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <h1>CONTACT</h1>
+      <i class="fab fa-twitter-square fa-2x m-3"></i>
+      <i class="fab fa-facebook-square fa-2x m-3"></i>
+      <i class="fab fa-instagram-square fa-2x m-3"></i>
+      <p>&copy; Journeys Unlimited. Images: Pexels.</p>
+    </footer>
 
     <!-- javaScript needs to be at the end, not the beginning. -->
 

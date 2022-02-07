@@ -1,7 +1,7 @@
 /* Mobile-Friendly Websites */
 /* parallax-practice */
 /* K0mputer N3rd */
-/* 02/05/2022 */
+/* 02/06/2022 */
 
 /* style.css */
 
@@ -12,26 +12,88 @@
   box-sizing: border-box;
 }
 
-/* Jumbotron #1 */
-#jumbo1 {
+/* Parallax #1 */
+#parallax1 {
   background-image: url("../img/pexels-harrison-haines-8147572.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
   background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  /* width: 100%;
-  height: 700px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Parallax #2 */
+#parallax2 {
+  background-image: url("../img/pexels-kindel-media-9936976.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Parallax #3 */
+#parallax3 {
+  background-image: url("../img/pexels-pixabay-38537.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Parallax #4 */
+#parallax4 {
+  background-image: url("../img/pexels-kinkate-368260.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  background-color: crimson;
+  padding: 25px 25px;
 }
 
 /* Text in Lobster Font */
-.text-one {
+
+.brand {
+  font-family: "Lobster", cursive;
+  font-size: 5vh;
+  font-weight: bold;
+  color: white;
+  }
+  
+.text-one-black {
   font-family: "Lobster", cursive;
   font-size: 15vh;
-  font-weight: bolder;
+  font-weight: bold;
   color: black;
 }
 
+.text-one-white {
+  font-family: "Lobster", cursive;
+  font-size: 15vh;
+  font-weight: bold;
+  color: white;
+}
+
 /* Text in Open Sans Font */
-.text-two {
+.text-two-black {
+  font-family: "Open Sans", sans-serif;
+  font-size: 8vh;
+  font-weight: bold;
+  color: black;
+}
+
+.text-two-white {
   font-family: "Open Sans", sans-serif;
   font-size: 8vh;
   font-weight: bold;
